@@ -1,4 +1,4 @@
-# <div> Sejam bem vindos à pesquisa sobre Tecnologia e Mercado de Trabalho. </div>
+# <div> Sejam bem vindos ao IRTE. </div>
 
 ## Conteúdos 📄
 - Descrição do Projeto 📝
@@ -8,7 +8,7 @@
 - Desenvolvedores 💖
 
 ## Descrição do Projeto 📝
-
+A pesquisa sobre Tecnologia e Mercado de Trabalho. 
 Este projeto foi elaborado por estudantes da Instituição [Resilia](https://www.resilia.work/), em colaboração dos facilitadores Esli Queiroz (Soft) e Dayson Nascimento (Tech). Deixamos aqui nossos profundos e sinceros agradecimentos por essa etapa concluída de final de primeiro módulo.
 
 ## Status do Projeto  ✅

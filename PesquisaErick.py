@@ -44,7 +44,7 @@ class Questionario():
                     elif escolha == 3:
                         self.__Resposta1.append('Não sei responder')
                         break
-            except:
+            except ValueError:
                 print('Escolha inválida.Tente  novamente...')
         while True:
             try:
@@ -61,7 +61,7 @@ class Questionario():
                     elif escolha == 3:
                         self.__Resposta2.append('Não sei responder')
                         break
-            except:
+            except ValueError:
                 print('Escolha inválida.Tente  novamente...')
         while True:
             try:
@@ -78,7 +78,7 @@ class Questionario():
                     elif escolha == 3:
                         self.__Resposta3.append('Não sei responder')
                         break
-            except:
+            except ValueError:
                 print('Escolha inválida.Tente  novamente...')
         while True:
             try:
@@ -95,7 +95,7 @@ class Questionario():
                     elif escolha == 3:
                         self.__Resposta4.append('Não sei responder')
                         break
-            except:
+            except ValueError:
                 print('Escolha inválida.Tente  novamente...')
         exato = datetime.datetime.now()
         data = exato.strftime('%d/%m/%y')
@@ -143,11 +143,19 @@ while True:
         break
     while True:
         try:
-            escolha_genero = int(input('Qual o seu gênero?\n[1]Masculino\n[2]Feminino\n[3]LGBTQIA+\3\n'))
+            escolha_genero = int(input('Qual o seu gênero?\n[1]Masculino\n[2]Feminino\n[3]Outros\n'))
             if escolha_genero != 1 and escolha_genero != 2 and escolha_genero != 3:
                 print('Escolha inválida,tente novamente...')
             else:
-                break
+                if escolha_genero == 1:
+                    escolha_genero = 'Masculino'
+                    break
+                elif escolha_genero == 2:
+                    escolha_genero = 'Feminino'
+                    break
+                elif escolha_genero == 3:
+                    escolha_genero = 'Outros'
+                    break
         except ValueError:
             print('Digite um número entre 1 e 3 para fazer sua escolha.')
     convidado = Questionario(idade,escolha_genero)
