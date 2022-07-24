@@ -1,4 +1,9 @@
-# <div> Sejam bem vindos ao IRTE. </div>
+<div align="center">
+<img src = "https://i.imgur.com/njCEI70.png"
+width="500px"/>
+</div>
+
+# <div> Sejam bem vindos ao IRTE </div>
 
 ## Conteúdos 📄
 - Descrição do Projeto 📝
