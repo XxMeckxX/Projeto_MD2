@@ -1,3 +1,4 @@
-pergunta1,pergunta2,pergunta3,pergunta4
-resposta1.1,resposta2.1,resposta3.1,resposta4.1
-reposta1.2,resposta2.2,resposta3.2,resposta4.2
+,Idade,Gênero,Pergunta1,Pergunta2,Pergunta3,Pergunta4,Data da Resposta,Horário da Resposta
+Participante 1:,12,2,Sim,Não,Sim,Não sei responder,24/07/22,08:34 AM
+Participante 2:,23,1,Sim,Sim,Não,Sim,24/07/22,08:34 AM
+Participante 3:,32,3,Sim,Sim,Não sei responder,Sim,24/07/22,08:34 AM
