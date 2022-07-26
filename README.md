@@ -22,12 +22,25 @@ Este projeto foi elaborado por estudantes da Instituição [Resilia](https://www
 
 
 ## Colocando em Funcionamento 💻
-Antes de começar, será preciso ter em sua máquina o Python instalado, de preferência alguma IDE para facilitar na compilação e visualização do código sendo executado. Além de ter algum aplicativo de planilha que suporte arquivos .csv .
 
-## Tabela Criada 📋
-<div align='center'>
+Recursos utilizados:
+- Python
+- VSCode-IDE
+- Extensão da IDE para tabelas no Excel.
+
+<hr>
+
+<b>Funciona da seguinte maneira:<b>
+<h3><li> Fluxograma </li></h3>
+<div align ='center'>
+<img src = https://i.imgur.com/chryCcc.png width='900px' />
+</div>
+
+<h3><li> Tabela Criada 📋 </li></h3>
+<div align ='center'>
 <img src = https://i.imgur.com/vOAD4N9.png width='900px' />
 </div>
+<hr>
 
 ## Ferramentas Utilizadas 🔧
 As seguintes ferramentas foram utilizadas na construção do projeto: 
@@ -38,6 +51,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 - [![Discord](https://img.shields.io/twitter/url?label=Discord&logo=Discord&style=social&url=https%3A%2F%2Fdiscord.com)](https://discord.com)
 - [![WhatsApp](https://img.shields.io/twitter/url?label=WhatsApp&logo=WhatsApp&style=social&url=https%3A%2F%2Fwww.whatsapp.com)](https://www.whatsapp.com)
 - [![Miro](https://img.shields.io/twitter/url?label=Miro&logo=Miro&style=social&url=https%3A%2F%2Fmiro.com%2Fpt%2F)](https://miro.com/pt/)
+<hr>
 
 ## Desenvolvedores 💖
 Esses abaixo, foram os idealizadores e desenvolvedores do projeto. Para mais informações acesse o LinkedIn ou o GitHub correspondente.
