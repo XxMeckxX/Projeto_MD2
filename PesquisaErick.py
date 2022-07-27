@@ -16,13 +16,17 @@ class Questionario():
     __dic = {
         'Idade': __Idade,
         'Gênero':__Genero,
-        'Pergunta1':__Resposta1,
-        'Pergunta2':__Resposta2,
-        'Pergunta3':__Resposta3,
-        'Pergunta4':__Resposta4,
+        'Você se vê mudando de área de trabalho atual para a de tecnologia?':__Resposta1,
+        'A tecnologia é uma área que você tem interesse?':__Resposta2,
+        'Você já possui algum conhecimento sobre programação?':__Resposta3,
+        'Caso tenha interesse, você se inscreveria em algum curso para aprender mais sobre tecnologia?':__Resposta4,
         'Data da Resposta':__Data,
         'Horário da Resposta':__Hora
     }
+    pergunta_1 = 'Você se vê mudando de área de trabalho atual para a de tecnologia?\n[1]Sim\n[2]Não\n[3]Não sei responder\n '
+    pergunta_2 = 'A tecnologia é uma área que você tem interesse?\n[1]Sim\n[2]Não\n[3]Não sei responder\n'
+    pergunta_3 = 'Você já possui algum conhecimento sobre programação?\n[1]Sim\n[2]Não\n[3]Não sei responder\n'
+    pergunta_4 = 'Caso tenha interesse, você se inscreveria em algum curso para aprender mais sobre tecnologia?\n[1]Sim\n[2]Não\n[3]Não sei responder\n'
     def __init__(self,idade,genero):
         self.__Idade.append(str(idade))
         self.__Genero.append(str(genero))
@@ -31,7 +35,7 @@ class Questionario():
     def respostas(self):
         while True:
             try:
-                escolha = int(input('Pergunta1:\n[1]Sim\n[2]Não\n[3]Não sei responder\n'))
+                escolha = int(input(self.pergunta_1))
                 if (escolha != 1) and (escolha!=2) and (escolha != 3):
                     print('Escolha inválida.Tente novamente...')
                 else:
@@ -48,7 +52,7 @@ class Questionario():
                 print('Escolha inválida.Tente  novamente...')
         while True:
             try:
-                escolha = int(input('Pergunta2:\n[1]Sim\n[2]Não\n[3]Não sei responder\n'))
+                escolha = int(input(self.pergunta_2))
                 if (escolha != 1) and (escolha!=2) and (escolha != 3):
                     print('Escolha inválida.Tente novamente...')
                 else:
@@ -65,7 +69,7 @@ class Questionario():
                 print('Escolha inválida.Tente  novamente...')
         while True:
             try:
-                escolha = int(input('Pergunta3:\n[1]Sim\n[2]Não\n[3]Não sei responder\n'))
+                escolha = int(input(self.pergunta_3))
                 if (escolha != 1) and (escolha!=2) and (escolha != 3):
                     print('Escolha inválida.Tente novamente...')
                 else:
@@ -82,7 +86,7 @@ class Questionario():
                 print('Escolha inválida.Tente  novamente...')
         while True:
             try:
-                escolha = int(input('Pergunta4:\n[1]Sim\n[2]Não\n[3]Não sei responder\n'))
+                escolha = int(input(self.pergunta_4))
                 if (escolha != 1) and (escolha!=2) and (escolha != 3):
                     print('Escolha inválida.Tente novamente...')
                 else:
