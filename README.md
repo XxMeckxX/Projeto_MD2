@@ -33,7 +33,7 @@ Recursos utilizados:
 <b>Funciona da seguinte maneira:<b>
 <h3><li> Fluxograma </li></h3>
 <div align ='center'>
-<img src = https://i.imgur.com/chryCcc.png width='900px' />
+<img src = https://i.imgur.com/xbszWZ6.png width='900px' />
 </div>
 
 <h3><li> Tabela Criada 📋 </li></h3>
