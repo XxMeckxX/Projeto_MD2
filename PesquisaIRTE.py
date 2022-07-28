@@ -102,11 +102,12 @@ class Perguntas():
 class Entrevistados():
     
     def __init__(self, p1, p2, p3, p4): # p = pergunta 
-        
+        count = 0
         while True:
+            count += 1 
             self.pessoa = []
             while True :
-                idade = input(f"Qual a sua idade?(Digite 00 para sair do programa.)\n")
+                idade = input(f"Participante {count}:\nQual a sua idade?(Digite 00 para sair do programa.)\n")
                 if idade.isnumeric():
                     if idade == '00':
                         os.system("cls")
