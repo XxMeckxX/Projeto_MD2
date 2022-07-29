@@ -30,6 +30,20 @@ Recursos utilizados:
 
 <hr>
 
+### Passos a serem feitos para rodar o programa:
+``` python
+    # Fazer o clone
+    # git clone <https://github.com/XxMeckxX/Projeto_MD2.git>
+    # Tem vários modos de abrir o arquivo,vou citar 2 deles.
+    # Modo1:
+        # Abrir a IDE.
+        # Ir na opção "Arquivo" e depois na opção "Abrir arquivo"
+        # Ir no diretório de onde baixou a pasta do arquivo. 
+        # Selecionar o arquivo "PesquisaIRTE" e clicar em abrir.
+    # Modo2:
+        # Ir na pasta baixada e clicar com o botão direito no arquivo "PesquisaIRTE".
+        # Ir na opção "Abrir com" e escolher a opção com a IDE.
+```
 <b>Funciona da seguinte maneira:<b>
 <h3><li> Fluxograma </li></h3>
 <div align ='center'>
